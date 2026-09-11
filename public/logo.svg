@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Vantage logo">
+  <defs>
+    <linearGradient id="vg-hex" x1="8" y1="6" x2="56" y2="58" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#6366F1"/>
+      <stop offset="0.55" stop-color="#8B5CF6"/>
+      <stop offset="1" stop-color="#D946EF"/>
+    </linearGradient>
+    <linearGradient id="vg-bars" x1="20" y1="42" x2="46" y2="22" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#E9D5FF"/>
+    </linearGradient>
+  </defs>
+  <!-- Rounded hexagon mark -->
+  <path d="M32 3.5c2.6 0 5.1.7 7.3 2l14.6 8.4c2.2 1.3 3.6 3.7 3.6 6.3v23.6c0 2.6-1.4 5-3.6 6.3l-14.6 8.4c-2.2 1.3-4.7 2-7.3 2s-5.1-.7-7.3-2l-14.6-8.4c-2.2-1.3-3.6-3.7-3.6-6.3V20.2c0-2.6 1.4-5 3.6-6.3L24.7 5.5c2.2-1.3 4.7-2 7.3-2z" fill="url(#vg-hex)"/>
+  <!-- Three-bar ascending pulse -->
+  <g fill="url(#vg-bars)">
+    <rect x="19" y="32" width="7" height="12" rx="2.4"/>
+    <rect x="29" y="25" width="7" height="19" rx="2.4"/>
+    <rect x="39" y="18" width="7" height="26" rx="2.4"/>
+  </g>
+  <!-- Pulse spark on tallest bar -->
+  <circle cx="42.5" cy="14.5" r="2.6" fill="#FFFFFF"/>
+</svg>
